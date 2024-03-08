@@ -1,0 +1,124 @@
+.box figure figcaption{
+    padding-left: 23px;
+    color: black;
+    
+}
+
+.box figure figcaption p span {
+    font-size: 1.250em;
+    font-weight: 600;
+}
+
+.box figure figcaption p {
+    font-size: 1em;
+}
+
+.box .title {
+    color:black;
+    font-size: 1em;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+
+
+.box1 {
+    margin: 20px;
+}
+
+.box button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #5350f2;
+    color: #fff;
+    margin-top: 15px;
+    border: none
+}
+
+.box1 button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #5350f2;
+    color: #fff;
+    margin-top: 15px;
+    border: none
+}
+
+.box button:hover {
+    cursor: pointer;
+}
+.box1 button:hover {
+    cursor: pointer;
+}
+
+
+.block2 .items .boxes{
+    flex-wrap:wrap;
+}
+
+.block2 .items .boxes .box{
+    margin-bottom: 28px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.boxes .title1 {
+    font-size: 1.250em;
+    font-weight: 600;
+}
+
+.block2 .items .month p {
+    color: #5350f2;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 30px
+}
+
+.block2 .items .boxes .box .name p {
+    font-size: 1.25em;
+}
+
+.block0 .titleBlock0 .nameBlock0 p {
+    position: relative;
+    bottom: 120px;
+    margin-left: 20px;
+    color: #5350f2;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.block0 .titleBlock0 .textBlock0 p {
+    font-size: 1.25em;
+    position: relative;
+    bottom: 70px;
+    margin-right: 20px;
+}
+
+.titleBlock0 button {
+    width: 50%;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: #5350f2;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: none
+}
+
+.titleBlock0 button:hover {
+    cursor: pointer;
+}
+
+.block1 p {
+    font-size: 1.25em;
+}
+
+.block1 figure {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+

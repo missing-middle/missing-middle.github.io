@@ -1,0 +1,150 @@
+/*
+ >= 1200
+ 992 - 1199
+ 768 - 991 
+ 576 - 768 
+ 460 - 576
+ 414 - 460 
+ 375 - 414 
+ 320 - 375
+ */
+
+ @media screen and (max-width: 991px) {
+    .block0 img {
+        width: 50%;
+    }
+    .box1 {
+        display:none
+    }
+    
+
+
+
+
+    .block0 .titleBlock0 .nameBlock0 p {
+        position: relative;
+        bottom: 30px;
+        margin-left: 20px;
+        color: #5350f2;
+        font-size: 1.5em;
+        font-weight: 600;
+        
+    }
+    
+    .block0 .titleBlock0 .textBlock0 p {
+        font-size: 1em;
+        position: relative;
+        bottom: 30px;
+        margin-right: 20px;
+    }
+    
+    .titleBlock0 button {
+        width: 30%;
+        padding: 6px;
+        border-radius: 30px;
+        background-color: #5350f2;
+        color: #fff;
+        margin-top: 3px;
+        margin-left: 30px;
+        border: none;
+      
+    }
+ }
+
+ @media screen and (max-width: 767px) {
+    .block0 img {
+        width: 50%;
+        display:none;
+    }
+
+    .block1 img {
+        width: 50%;
+    }
+
+
+
+    .block0 .titleBlock0 .nameBlock0 p {
+        position: relative;
+        bottom: 40px;
+        margin-left: 0px;
+        color: #5350f2;
+        font-size: 1.25em;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    .block0 .titleBlock0 .textBlock0 p {
+        font-size: 0.75em;
+        position: relative;
+        bottom: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    .titleBlock0 button {
+        width: 40%;
+        padding: 6px;
+        border-radius: 30px;
+        background-color: #5350f2;
+        color: #fff;
+        margin-top: 3px;
+        margin-left: 170px;
+        border: none;
+        margin-bottom: 50px;
+    }
+ }
+
+ @media screen and (max-width: 414px) {
+    .block0 img {
+        width: 40%;
+    }
+
+    .block0 .titleBlock0 .nameBlock0 p {
+        position: relative;
+        bottom: 40px;
+        margin-left: 0px;
+        color: #5350f2;
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    
+    .block0 .titleBlock0 .textBlock0 p {
+        font-size: 1em;
+        position: relative;
+        bottom: 30px;
+        margin-right: 20px;
+    }
+    
+    .titleBlock0 button {
+        width: 50%;
+        padding: 6px;
+        border-radius: 30px;
+        background-color: #5350f2;
+        color: #fff;
+        margin-top: 3px;
+        margin-left: 40px;
+        border: none
+    }
+ }
+
+ 
+
+ 
+ 
+ @media screen and (max-width: 450px){
+    .block1 p {
+        font-size: 1em;
+    }
+    .block2 img {
+        width: 100%;
+    }
+ }
+
+ @media screen and (max-width: 375px){
+    .block1 p {
+        font-size: 0.75em;
+    }
+ }

@@ -1,0 +1,137 @@
+/*
+ >= 1200
+ 992 - 1199
+ 768 - 991 
+ 576 - 768 
+ 460 - 576
+ 414 - 460 
+ 375 - 414 
+ 320 - 375
+ */
+ 
+
+ @media screen and (max-width: 991px){
+    header > .container  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header > .container nav {
+        font-size: 0.875em;
+    }
+
+    header > .container > img {
+        margin-right: 35px;
+        margin-bottom: 10px;
+    }
+ }
+
+ @media screen and (max-width: 767px){
+    header .container .menu a {
+        margin-top: 0px;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+    }
+
+    header > .container nav {
+        font-size: 0.75em;
+    }
+
+    header > .container > img {
+        margin-right: 35px;
+        margin-bottom: 10px;
+    }
+    
+ }
+
+ @media screen and (max-width: 576px){
+    header .burgerIcon {
+        display: inline-block;
+        margin: 0!important;
+    }
+
+    header > .container > img {
+        margin-right: 250px;
+    }
+
+    header .container .menu {
+        display: none;
+    }
+
+    header .container .menu a {
+        margin: 0 10px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        display: block;
+    }
+ }
+ 
+ @media screen and (max-width: 450px){
+    header > .container > img {
+        margin-right: 150px;
+    }
+ }
+
+ @media screen and (max-width: 375px){
+    header > .container > img {
+        margin-right: 50px;
+    }
+ }
+
+
+
+
+ @media screen and (max-width: 991px){
+    footer > .container  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer > .container nav {
+        font-size: 0.875em;
+    }
+
+    header > .container > img {
+        margin-right: 35px;
+        margin-bottom: 10px;
+    }
+ }
+
+
+ @media screen and (max-width: 767px){
+    footer > .container nav {
+        font-size: 0.75em;
+    }
+    footer form div {
+        width: 150px;
+        height: 50px;
+        
+    }
+
+    footer form div input[type='text'] {
+        width: 90px;
+        height: 35px;
+    }
+
+    footer form div input[type='submit'] {
+        width: 30px;
+        height: 30px;
+    }
+ }
+
+ @media screen and (max-width: 576px){
+    footer .left form div {
+        
+        justify-content: left;
+    
+    }
+    
+
+    footer form div input[type='text'] {
+        border: none;
+
+    }
+
+    
+ }
